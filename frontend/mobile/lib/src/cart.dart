@@ -11,15 +11,11 @@ class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Cart Page'),
-      ),
+      appBar: AppBar(title: const Text('Cart Page')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text('Your cart is empty!'),
-          ],
+          children: [const Text('')],
         ),
       ),
     );
